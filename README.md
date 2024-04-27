@@ -8,8 +8,8 @@ subtraction, multiplication, and division using
 children-friendly visualization.
 
 1.Teaching some arithmetic operations using
-abacus.
+abacus.<br>
 2.Making YouTube video tutorials available for
-quick learning.
+quick learning.<br>
 3.The users should be able to attempt quizzes and
-puzzles on different topics and get feedback.
+puzzles on different topics and get feedback.<br>
