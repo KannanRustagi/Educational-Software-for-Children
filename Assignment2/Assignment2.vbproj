@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3331FE32-F476-40BD-B472-B7F5F95D8056}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Assignment2.My.MyApplication</StartupObject>
+    <RootNamespace>Assignment2</RootNamespace>
+    <AssemblyName>Assignment2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Assignment2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Assignment2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchiveAbacus.Designer.vb">
+      <DependentUpon>ArchiveAbacus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveAbacus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveBasicMath.Designer.vb">
+      <DependentUpon>ArchiveBasicMath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveBasicMath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abacus.designer.vb">
+      <DependentUpon>Abacus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Abacus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicMathHome.designer.vb">
+      <DependentUpon>BasicMathHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasicMathHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicMathMain.designer.vb">
+      <DependentUpon>BasicMathMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasicMathMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Videolist.designer.vb">
+      <DependentUpon>Videolist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Videolist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Videohome.designer.vb">
+      <DependentUpon>Videohome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Videohome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Videoplayer.designer.vb">
+      <DependentUpon>Videoplayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Videoplayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mathquiz.designer.vb">
+      <DependentUpon>Mathquiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mathquiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shapequiz.designer.vb">
+      <DependentUpon>Shapequiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shapequiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quizhome.designer.vb">
+      <DependentUpon>Quizhome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Quizhome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loginpage.designer.vb">
+      <DependentUpon>Loginpage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loginpage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveBasicMathTwo.Designer.vb">
+      <DependentUpon>ArchiveBasicMathTwo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveBasicMathTwo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.vb">
+      <DependentUpon>Homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveMathQz.Designer.vb">
+      <DependentUpon>ArchiveMathQz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveMathQz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ArchivePzlQzHome.Designer.vb">
+      <DependentUpon>ArchivePzlQzHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchivePzlQzHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveShapeQz.Designer.vb">
+      <DependentUpon>ArchiveShapeQz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveShapeQz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uman.designer.vb">
+      <DependentUpon>Uman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Uman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveVideo.Designer.vb">
+      <DependentUpon>ArchiveVideo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveVideo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ArchiveAbacus.resx">
+      <DependentUpon>ArchiveAbacus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveBasicMath.resx">
+      <DependentUpon>ArchiveBasicMath.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Abacus.resx">
+      <DependentUpon>Abacus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicMathHome.resx">
+      <DependentUpon>BasicMathHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicMathMain.resx">
+      <DependentUpon>BasicMathMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Videolist.resx">
+      <DependentUpon>Videolist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Videohome.resx">
+      <DependentUpon>Videohome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Videoplayer.resx">
+      <DependentUpon>Videoplayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mathquiz.resx">
+      <DependentUpon>Mathquiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shapequiz.resx">
+      <DependentUpon>Shapequiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quizhome.resx">
+      <DependentUpon>Quizhome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loginpage.resx">
+      <DependentUpon>Loginpage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveBasicMathTwo.resx">
+      <DependentUpon>ArchiveBasicMathTwo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveMathQz.resx">
+      <DependentUpon>ArchiveMathQz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchivePzlQzHome.resx">
+      <DependentUpon>ArchivePzlQzHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveShapeQz.resx">
+      <DependentUpon>ArchiveShapeQz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uman.resx">
+      <DependentUpon>Uman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveVideo.resx">
+      <DependentUpon>ArchiveVideo.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
