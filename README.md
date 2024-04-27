@@ -1,8 +1,7 @@
 # Problem Structure
 We had to create an educational software to teach
 students fundamental concepts while making
-learning fun and interesting.<br>
-The software provides the following
+learning fun and interesting. The software provides the following
 functionalities- Teaching arithmetic operations- addition,
 subtraction, multiplication, and division using
 children-friendly visualization.
